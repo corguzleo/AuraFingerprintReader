@@ -1,18 +1,25 @@
-# Salesforce DX Project: Next Steps
+# Fingerprint Reader
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Emula lector de huellas 
 
-## How Do You Plan to Deploy Your Changes?
+## Accesos con teclado (shortcut)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+### Shift + R
+Muestra la huella Roja
+### Shift + V
+Muestra la huella Verde
+### Shift + A
+Muestra la huella Azul
+### Shift + G
+Muestra la huella Gris
 
-## Configure Your Salesforce DX Project
+## Modo de uso
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- Agregar el componente a cualquier pagina y presionar
+- En la pagina pude presionar cualquiera de los shortcuts al que quieren que se emule la lectura de la huella
+- Presione el boton Start
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+![Alt text](/assets/Fingerprint01.png?raw=true "Componente")
+![Alt text](/assets/Fingerprint02.png?raw=true "Cargando")
+![Alt text](/assets/Fingerprint03.png?raw=true "Error")
+![Alt text](/assets/Fingerprint04.png?raw=true "Correcto")
